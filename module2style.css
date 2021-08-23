@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+
+#title2 {
+  position: fixed;
+  top: 5px;
+  left: 8px;
+  background-color: blue;
+}
+
+/* @media (min-width: 992px) {} */
