@@ -1,0 +1,87 @@
+body{
+  background-color: #F0F8FF;
+}
+
+h1{
+  background-color: #B22222;
+  text-align: center;
+  width: 85%;
+  margin: 8%;
+  text-transform: capitalize;
+  font-size: 450%;
+  border: 7px inset #000000;
+}
+
+div{
+  border: 7px inset #00008B;
+  background-color: #FFF8DC;
+  position: relative;
+}
+
+h2{
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  left:auto;
+  margin-left: auto;
+  border: 7px solid #00008B;
+  width: 30%;
+}
+
+p{
+  padding: 1%;
+}
+
+#title2{
+  background-color: #8B008B;
+}
+
+#title3{
+  background-color: #9400D3;
+}
+
+#title4{
+  background-color: #00BFFF;
+}
+
+@media only screen and (min-width: 992px)  {
+  div{
+    width: 25%;
+    display: inline-block;
+    padding: 2%;
+    float: left;
+    margin: 1%;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  div{
+    display: inline-block;
+  }
+
+  .coltabl2{
+    width: 35%;
+    display: inline-block;
+    padding: 3%;
+    float: left;
+    margin: 3%;
+  }
+
+  .coltabl1{
+    margin: 2%;
+    width: 80%;
+    padding: 8%;
+  }
+
+}
+
+@media only screen and  (max-width: 767px) {
+  div{
+    margin: 2%;
+    width: 80%;
+    padding: 8%;
+  }
+
+}
